@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "homepage": "https://12NatsuDragneel.github.io/Staging",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
