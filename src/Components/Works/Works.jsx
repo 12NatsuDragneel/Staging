@@ -28,11 +28,11 @@ function SamplePrevArrow(props) {
   );
 }
 const images = [
-  "Images/project-1.jpeg",
-  "Images/project-2.jpeg",
-  "Images/project-3.jpeg",
-  "Images/project-4.jpeg",
-  "Images/project-2.jpeg",
+  "./Images/project-1.jpeg",
+  "./Images/project-2.jpeg",
+  "./Images/project-3.jpeg",
+  "./Images/project-4.jpeg",
+  "./Images/project-2.jpeg",
 ];
 
 function Works() {
