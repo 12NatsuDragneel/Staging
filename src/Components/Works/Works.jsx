@@ -27,15 +27,16 @@ function SamplePrevArrow(props) {
     </button>
   );
 }
+const images = [
+  "Images/project-1.jpeg",
+  "Images/project-2.jpeg",
+  "Images/project-3.jpeg",
+  "Images/project-4.jpeg",
+  "Images/project-2.jpeg",
+];
 
 function Works() {
-  const images = [
-    "./Images/project-1.jpeg",
-    "./Images/project-2.jpeg",
-    "./Images/project-3.jpeg",
-    "./Images/project-4.jpeg",
-    "./Images/project-2.jpeg",
-  ];
+  
   
   const settings = {
     dots: false, // Show navigation dots
