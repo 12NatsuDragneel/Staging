@@ -3,6 +3,13 @@ import Slider from 'react-slick';
 import './Works.css'; // Make sure the CSS imports are included here
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import React from 'react';
+import project1 from './Images/project-1.jpeg';
+import project2 from './Images/project-2.jpeg';
+import project3 from './Images/project-3.jpeg';
+import project4 from './Images/project-4.jpeg';
+
+const images = [project1, project2, project3, project4, project2];
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -25,13 +32,7 @@ function SamplePrevArrow(props) {
     </button>
   );
 }
-const images = [
-  "Images/project-1.jpeg",
-  "Images/project-2.jpeg",
-  "Images/project-3.jpeg",
-  "Images/project-4.jpeg",
-  "Images/project-2.jpeg",
-];
+
 
 function Works() {
 
