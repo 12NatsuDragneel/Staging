@@ -1,0 +1,29 @@
+.HeroComponent1{
+    height: 63dvh;
+    width: 100%;
+    background-size: cover;
+    background-position:calc(50%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.HeroComponent11 h1{
+    font-size: clamp(15px,45px,60px);
+    color: white;
+    text-align: center;
+    font-family: Aldrich, sans-serif;
+    font-weight: 500;
+    margin-top: 10%;
+}
+.HeroComponent11 p{
+    color: white;  
+}
+.HeroComponent11 p span{
+    color: rgb(255, 172, 103);
+}
+@media all and (max-width:500px) {
+    .HeroComponent11 h1{
+        font-size: 2rem;
+    }
+}

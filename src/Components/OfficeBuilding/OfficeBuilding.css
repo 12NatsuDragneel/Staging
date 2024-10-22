@@ -1,0 +1,81 @@
+.OfficeBuilding0{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-left: 7.9%;
+    margin-top: 8%;
+    /* padding-right: 8%; */
+}
+.OfficeBuilding1{
+    height: 75dvh;
+    width: 44.5%;
+}
+.OfficeBuilding1 h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    font-weight: 500;
+}
+.OfficeBuilding0 a{
+    text-align: center;
+    /* width: 100%; */
+    justify-self: center;
+    align-self: center;
+    position: relative;
+    /* margin-top: 10svh; */
+    display: inline-block;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.OfficeBuilding0  a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 2px solid gray;
+    border-right: 2px solid gray;
+    width: 1.5svw; 
+    height: 3.5svh;
+  }
+  .OfficeBuilding0  a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;  
+    width: 1.5svw; 
+    height: 3.5svh;
+  }
+  .OfficeBuilding0  a:hover::before
+  ,.OfficeBuilding0  a:hover::after
+  {
+    width: 100%; 
+    height: 100%;
+    transition: all 700ms linear 00ms;
+  }
+.OfficeBuilding12{
+    /* border: 2px solid blue; */
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items:start ;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+@media all and (max-width:500px) {
+ .OfficeBuilding0{
+  margin-top: 30%;
+  flex-direction: column;
+  padding-right: 3%;
+  padding-left: 3%;
+  gap: 0rem;
+ } 
+ .OfficeBuilding1{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+ }
+}

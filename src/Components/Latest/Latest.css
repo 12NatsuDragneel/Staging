@@ -1,0 +1,91 @@
+.View11{
+    width:29.3333333333%;
+    background-color: white;
+    /* height: 100%; */
+    box-shadow: 0px 0px 30px 20px  rgba(128, 128, 128, 0.1); 
+}
+.View1{
+    display: flex;
+    gap: 2%;
+    /* border: 2px solid greenyellow; */
+    width: 100%;
+    height: 80svh;
+    padding-left: 8%;
+    margin-bottom: 10%;
+    /* padding-right: 5%; */
+}
+.View12{
+    width:29.3333333333%;
+    /* background-image: url('../../../public/Images/latest-1.jpeg'); */
+    /* height: 100%; */
+}
+.View13{
+    width:29.3333333333%;
+    /* background-image: url('../../../public/Images/latest-2.jpeg'); */
+    /* height: 100%; */
+}
+.View14{
+    width:29.3333333333%;
+    /* background-image: url('../../../public/Images/latest-3.jpeg'); */
+    /* height: 100%; */
+}
+.View11 sup{
+    color: gray;
+    font-size: clamp(10px,15px,25px);
+    letter-spacing:0.12vw ;
+    display: block;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.View11 p{
+    color: black;
+    font-size: clamp(10px,22px,40px);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+}
+.View11 a {
+    color: black;
+    display: block;
+    margin: 5% 0 0 20%;
+    height: fit-content;
+    font-size: clamp(10px, 14px, 20px);
+    font-weight: bold;
+    /* border: 2px solid red; */
+    position: relative;
+    width: fit-content;
+}
+
+.View11 a::before {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 5%;
+    background-color: #dfa667;
+    top: 40%;
+    left: -50%;
+    transition: left 0.3s ease, right 0.3s ease;
+}
+
+.View11:hover a::before {
+    left: auto;
+    right: -50%;
+}
+.View11:hover a{
+    margin-left: 10%;
+    transition: all 500ms linear;
+}
+@media all and (max-width:500px) {
+    .View1{
+        flex-direction: column;
+        gap: 2rem;
+        height: auto;
+    }
+    .View11{
+        width: 100%;
+    }
+    .View11 a{
+        margin-bottom: 2rem;
+    }
+}

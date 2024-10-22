@@ -1,0 +1,83 @@
+.Header1 {
+  /* margin-bottom: 10vh; */
+  /* border: 2px solid red; */
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 10svh;
+  background-position: fixed;
+}
+
+.Header1 a {
+  font-size: clamp(15px, 50px, 65px);
+  font-weight: 100;
+  letter-spacing: -0.3svh;
+  text-decoration: none;
+  color: white;
+  margin-right: 1svw;
+  margin-left: 2svw;
+}
+
+.Header1 a i {
+  background-color: rgb(110, 216, 89);
+  font-size: 0;
+  padding: 3px;
+
+}
+
+.Header1 button {
+  margin-right: auto;
+}
+
+.icon-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icon-list li {}
+
+.icon-list button {
+  font-size: clamp(15px, 30px, 65px);
+  /* padding: 2svh; */
+}
+
+.Header-Button1 {
+  background: none;
+  /* border: none; */
+  cursor: pointer;
+}
+
+.Header1 ul button {
+  padding: 9px 15px;
+}
+
+.icon-list button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.staging-button {
+  word-spacing: 10px;
+}
+
+.Header-Button2 {
+  background-color: rgb(124, 202, 21);
+}
+
+.app.pc ~ .main1 {
+  width: 100%;
+}
+
+.app.tablet ~ .main1 {
+  width: 768px;
+}
+
+.app.mobile ~ .main1 {
+  width: 375px;
+}

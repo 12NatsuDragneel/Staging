@@ -1,0 +1,52 @@
+.Choose{
+    background: url('../../../public/Images/call-bg.jpeg');
+    height: 90dvh;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.Choose sup{
+    color: #dfa667;
+    font-weight: 700;
+    font-size: clamp(10px,15px,20px);
+    letter-spacing: 0.15svw;
+    margin-bottom: 3%;
+}
+.Choose p{
+    color: white;
+    font-size: clamp(15px,45px,55px);
+    max-width: 70%;
+    line-height: 120%;
+    margin-bottom: 3%;
+}
+.Choose a{
+    background-color: #dfa667;
+    width: 15%;
+    color: white;
+    font-weight: 700;
+    height: 10%;
+    border-radius: 5%;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+@media all and (max-width:500px) {
+    .Choose{
+        height: 110dvh;
+    }
+    .Choose p{
+        font-size: 2rem;
+        max-width: 90%;
+        line-height: 3rem;
+        margin-bottom: 2.5rem;
+        margin-top: 2rem;
+    }
+    .Choose a{
+        width: 40%;
+    }
+}

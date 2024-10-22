@@ -1,0 +1,216 @@
+.Meet1 sup {
+    color: #dfa667;
+    font-weight: 600;
+    font-size: clamp(10px,15px,20px);
+    letter-spacing: 0.15svw;
+    display: block;
+  }
+  
+  .Meet1 h1 {
+    font-weight: 500;
+    font-size: clamp(20px, 42px, 58px);
+    margin-bottom: 5svh;
+    margin-top: 0;
+    padding-top: 0;
+    /* border: 2px solid salmon; */
+    width: fit-content;
+    display: inline-block;
+  }
+  .Meet1{
+    margin-left: 8%;
+    margin-top: 10%;
+    display: inline-block;
+    /* border: 2px solid brown; */
+    width: 84%;
+  }
+  .Meet1 a{
+    /* border: 2px solid blueviolet; */
+    float: right;
+    padding: 15px;
+padding-left: 40px;
+font-weight: bold;
+padding-right: 40px;
+/* margin-top: 10svh; */
+position: relative;
+  }
+  .Meet1 a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 2px solid gray;
+    border-right: 2px solid gray;
+    width: 1.5svw; 
+    height: 3.5svh;
+  }
+  .Meet1 a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;  
+    width: 1.5svw; 
+    height: 3.5svh;
+  }
+  .Meet1 a:hover::before
+,.Meet1 a:hover::after
+{
+  width: 100%; 
+  height: 100%;
+  transition: all 700ms linear 00ms;
+}
+  .Meet2 {
+    display: flex;
+    height: 100svh;
+    width: 100%;
+    padding-left: 8%;
+    gap: 2svw;
+  }
+  
+  .Meet21,
+  .Meet22,
+  .Meet23 {
+    background-size: cover;
+    height: 80%;
+    position: relative;
+    width: 29%;
+    /* transition: background 0.3s ease-in-out; */
+    transition: all 700ms linear 00ms;
+  }
+  
+  .Meet21 {
+    background: url('../../../public/Images/team-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50%; */
+  }
+  
+  .Meet22 {
+    background: url('../../../public/Images/team-2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .Meet23 {
+    background: url('../../../public/Images/team-3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .Meet211 {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+  }
+  
+  .Meet211 sub {
+    color: #dfa667;
+    font-weight: normal;
+    font-size: clamp(10px, 15px, 30px);
+  }
+  
+  .Meet211 h2 {
+    color: white;
+    font-weight: bold;
+    font-size: clamp(12px, 18px, 30px);
+  }
+  
+  .Meet212 {
+    display: none;
+  }
+  
+  .Meet212 sub {
+    color: #dfa667;
+    font-weight: normal;
+    font-size: clamp(10px, 15px, 30px);
+    border-bottom: 1px solid gray;
+    padding-bottom: 13%;
+    margin-bottom: 10%;
+    display: block;
+    width: 90%;
+  }
+  
+  .Meet212 h2 {
+    color: white;
+    font-weight: bold;
+    font-size: clamp(12px, 18px, 30px);
+    margin-bottom: 3%;
+  }
+  
+  .Meet212 p {
+    color: rgb(183, 183, 183);
+  }
+  
+  .Meet21:hover .Meet211 {
+    display: none;
+  }
+  
+  .Meet21:hover .Meet212 {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  
+  .Meet21:hover {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)),
+      url('../../../public/Images/team-1.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: all 700ms linear 00ms;
+  }
+  
+  .Meet22:hover {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)),
+      url('../../../public/Images/team-2.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  
+  .Meet23:hover {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)),
+      url('../../../public/Images/team-3.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: all 2s;
+  }
+  .Meet21:hover .Meet212 i{
+    margin-top: 45%;
+    display: flex;
+    font-size: clamp(11px,20px,30px);
+    color: white;
+    gap: 10%;
+  }
+  @media all and (max-width:500px) {
+    .Meet2{
+      /* border: 2px solid red; */
+      flex-direction: column;
+      height: auto;
+     padding-left: 3%;
+     padding-right: 3%;
+      gap: 2rem;
+    }
+    .Meet21{
+      /* border: 2px solid blue; */
+      width: 100%;
+      height: 90vh;
+    }
+    .Meet0{
+      margin-bottom: 30%;
+    }
+    .Meet1{
+      border: 2px solid transparent !important;
+      margin-left: 4%;
+    }
+    .Meet1 h1{
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+    .Meet1 a{
+      float: left;
+      margin-bottom: 10%;
+    }
+    
+  }
