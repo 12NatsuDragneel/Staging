@@ -11,7 +11,7 @@ function Propose() {
                     </p>
                     <a href="#">Learn More</a>
                 </div>
-                <div className="Propose12"><img src="../../../public/Images/about-pic.jpeg" alt="" /></div>
+                <div className="Propose12"><img src="Images/about-pic.jpeg" alt="" /></div>
             </div>
         </div>
     )
