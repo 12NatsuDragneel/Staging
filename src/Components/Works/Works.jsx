@@ -28,11 +28,11 @@ function SamplePrevArrow(props) {
 
 function Works() {
   const images = [
-    "../../../public/Images/project-1.jpeg",
-    "../../../public/Images/project-2.jpeg",
-    "../../../public/Images/project-3.jpeg",
-    "../../../public/Images/project-4.jpeg",
-    "../../../public/Images/project-2.jpeg",
+    "Images/project-1.jpeg",
+    "Images/project-2.jpeg",
+    "Images/project-3.jpeg",
+    "Images/project-4.jpeg",
+    "Images/project-2.jpeg",
   ];
 
   const settings = {
