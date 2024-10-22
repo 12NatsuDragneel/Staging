@@ -1,9 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
-import './Works.css'; // Make sure the CSS imports are included here
+import './Works.css'; // Ensure this CSS file exists
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import React from 'react';
 import project1 from './Images/project-1.jpeg';
 import project2 from './Images/project-2.jpeg';
 import project3 from './Images/project-3.jpeg';
@@ -33,29 +32,27 @@ function SamplePrevArrow(props) {
   );
 }
 
-
 function Works() {
-
   const settings = {
-    dots: false, // Show navigation dots
-    infinite: true, // Infinite loop
-    speed: 200, // Slide transition speed
-    slidesToShow: 4, // Number of slides to show at once
-    slidesToScroll: 1, // Number of slides to scroll per click
-    nextArrow: <SampleNextArrow />, // Custom next arrow
-    prevArrow: <SamplePrevArrow />, // Custom previous arrow
+    dots: false,
+    infinite: true,
+    speed: 200,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
-        breakpoint: 500, // At 500px or below
+        breakpoint: 768, // Adjusted for medium devices
         settings: {
-          slidesToShow: 1, // Show 1 slide at a time
+          slidesToShow: 2, // Show 2 slides at medium size
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 480, // At 480px or below
+        breakpoint: 500,
         settings: {
-          slidesToShow: 1, // Show 1 slide at a time
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
