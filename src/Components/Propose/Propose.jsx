@@ -1,6 +1,6 @@
 import React from 'react'
 import './Propose.css'
-import aboutPic from './Images/about-pic.jpeg'
+import aboutPic from '/Images/about-pic.jpeg'
 function Propose() {
     return (
         <div>
