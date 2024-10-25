@@ -8,9 +8,9 @@ function OurProject() {
         <HeroComponent 
         ProjectH1={"OUR PROJECTS"}
         ProjectP1={"Projects"}
-        backgroundImage={"../../../public/Images/breadcrumb-bg.jpeg"}
+        backgroundImage={"./Images/breadcrumb-bg.jpeg"}
         />
-        <OfficeBwuilding />
+        <OfficeBuilding />
         
     </div>
   )
