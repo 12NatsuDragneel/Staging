@@ -9,7 +9,7 @@ function Services() {
       <HeroComponent 
         ProjectH1="Our Services"
         ProjectP1="Our Services"
-        backgroundImage="../../../public/Images/breadcrumb-bg.jpeg"
+        backgroundImage="./Images/breadcrumb-bg.jpeg"
       />
       <div className="Services1">
         <div className="special">
@@ -19,7 +19,7 @@ function Services() {
           </div>
           <div className="Special2">
             <div className="Special21 Special22">
-              <img src="../../../public/Images/services-1.png" alt="Interior Design" />
+              <img src="./Images/services-1.png" alt="Interior Design" />
               <h2>INTERIOR DESIGN</h2>
               <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict attention.</p>
               <ul>
@@ -30,7 +30,7 @@ function Services() {
               </ul>
             </div>
             <div className="Special21">
-              <img src="../../../public/Images/services-2.png" alt="Office Design" />
+              <img src="./Images/services-2.png" alt="Office Design" />
               <h2>OFFICE DESIGN</h2>
               <p>Our commitment to exceptional quality has never wavered. Today ranks as one of the most highly-regarded construction.</p>
               <ul>
@@ -41,7 +41,7 @@ function Services() {
               </ul>
             </div>
             <div className="Special21">
-              <img src="../../../public/Images/services-3.png" alt="Home Design" />
+              <img src="./Images/services-3.png" alt="Home Design" />
               <h2>HOME DESIGN</h2>
               <p>Interdisciplinary architectural studio with cultural, residential, and commercial projects built worldwide.</p>
               <ul>
@@ -52,7 +52,7 @@ function Services() {
               </ul>
             </div>
             <div className="Special21">
-              <img src="../../../public/Images/services-4.png" alt="Design Drawing" />
+              <img src="./Images/services-4.png" alt="Design Drawing" />
               <h2>DESIGN DRAWING</h2>
               <p>Creating architectural and creative solutions to help people realize their vision and make them a reality.</p>
               <ul>
@@ -93,12 +93,12 @@ function Services() {
           </div>
           <div className="clients-logos">
             
-          <a href="#"><img src="../../../public/Images/logo-1.png" alt="Stackture" /></a>
-          <a href="#"><img src="../../../public/Images/logo-2.png" alt="Craftgenic" /></a>
-          <a href="#"><img src="../../../public/Images/logo-3.png" alt="DesignRipple" /></a>
-          <a href="#"><img src="../../../public/Images/logo-4.png" alt="Neural Construct" /></a>
-          <a href="#"><img src="../../../public/Images/logo-3.png" alt="DesignRipple" /></a>
-            <a href="#"><img src="../../../public/Images/logo-5.png" alt="Rebel Architect" /></a>
+          <a href="#"><img src="./Images/logo-1.png" alt="Stackture" /></a>
+          <a href="#"><img src="./Images/logo-2.png" alt="Craftgenic" /></a>
+          <a href="#"><img src="./Images/logo-3.png" alt="DesignRipple" /></a>
+          <a href="#"><img src="./Images/logo-4.png" alt="Neural Construct" /></a>
+          <a href="#"><img src="./Images/logo-3.png" alt="DesignRipple" /></a>
+            <a href="#"><img src="./Images/logo-5.png" alt="Rebel Architect" /></a>
           </div>
         </div>
       </div>

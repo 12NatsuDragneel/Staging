@@ -12,7 +12,7 @@ function Blog() {
       <HeroComponent 
       ProjectH1={"Our Blogs"}
       ProjectP1={"Blogs"}
-      backgroundImage={'../../../public/Images/breadcrumb-bg.jpeg'}
+      backgroundImage={'./Images/breadcrumb-bg.jpeg'}
       /></div>
       <div className="main">
         <div className="sub1">
@@ -22,7 +22,7 @@ function Blog() {
             <li> Planning</li>
             </sup>
               <h1>Target and Amazon Shopping List for Home Stagers</h1>
-              <img src="../../../public/Images/blog-1.jpeg" alt="get shit done" />
+              <img src="./Images/blog-1.jpeg" alt="get shit done" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
               <a href="#">Read more</a>
             </div>
@@ -36,7 +36,7 @@ function Blog() {
             <li> Planning</li>
             </sup>
               <h1>6 Ideas for Team Building & Employee Appreciation for Home Stagers</h1>
-              <img src="../../../public/Images/blog-2.jpeg" alt="get shit done" />
+              <img src="./Images/blog-2.jpeg" alt="get shit done" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
               <a href="#">Read more</a>
             </div>
@@ -46,7 +46,7 @@ function Blog() {
             <li> Planning</li>
             </sup>
               <h1>How to Find the Best Price Structure for Your Home Staging Services</h1>
-              <img src="../../../public/Images/blog-2.jpeg" alt="get shit done" />
+              <img src="./Images/blog-2.jpeg" alt="get shit done" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
               <a href="#">Read more</a>
             </div>
@@ -58,11 +58,11 @@ function Blog() {
             </div>
         </div>
         <div className="sub2">
-          <div className="sub21"><img src="../../../public/Images/blog-about.png" alt="" id='sub21Img' />
+          <div className="sub21"><img src="./Images/blog-about.png" alt="" id='sub21Img' />
           <p>Quis ipsum suspendisse ultrices gravid. Risus commodo viverra maece accums lacus vel facilisis.
 
 </p>
-<img src="../../../public/Images/signature.png" alt="" />
+<img src="./Images/signature.png" alt="" />
 <div className="search-container" style={{ position: 'relative' }}>
             <input 
                 type="text" 
@@ -95,21 +95,21 @@ function Blog() {
           <div className="sub23">
             <h2>Feature News</h2>
             <div className="sub231">
-              <img src="../../../public/Images/br-1.jpeg" alt="" />
+              <img src="./Images/br-1.jpeg" alt="" />
               <div className="sub2311">
               <h4>December 20, 2019</h4>
               <p>Grace Millane's mother tells killer she died 'terrified </p>
               </div>
             </div>
             <div className="sub231">
-              <img src="../../../public/Images/br-2.jpeg" alt="" />
+              <img src="./Images/br-2.jpeg" alt="" />
               <div className="sub2311">
               <h4>December 20, 2019</h4>
               <p>A 'gregarious' gap-year student who dreamed </p>
               </div>
             </div>
             <div className="sub231">
-              <img src="../../../public/Images/br-3.jpeg" alt="" />
+              <img src="./Images/br-3.jpeg" alt="" />
               <div className="sub2311">
               <h4>December 20, 2019</h4>
               <p>A 'gregarious' gap-year student who dreamed </p>

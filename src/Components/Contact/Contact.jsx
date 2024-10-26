@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div>
       <HeroComponent 
-        backgroundImage={'../../../public/Images/little-header.jpeg'}
+        backgroundImage={'./Images/little-header.jpeg'}
         backHeight={'19vh'}
         backsize={0}
       />
@@ -27,7 +27,7 @@ function Contact() {
             <div className={`${styles.colLg4} ${styles.colMd6} ${styles.colSm6}`}>
               <div className={styles.contact__widget__item}>
                 <div className={styles.contact__widget__item__icon}>
-                  <img src="../../../public/Images/ci-1.png" alt="" />
+                  <img src="./Images/ci-1.png" alt="" />
                 </div>
                 <div className={styles.contact__widget__item__text}>
                   <h5>Phone Number</h5>
@@ -38,7 +38,7 @@ function Contact() {
             <div className={`${styles.colLg4} ${styles.colMd6} ${styles.colSm6}`}>
               <div className={styles.contact__widget__item}>
                 <div className={styles.contact__widget__item__icon}>
-                  <img src="../../../public/Images/ci-2.png" alt="" />
+                  <img src="./Images/ci-2.png" alt="" />
                 </div>
                 <div className={styles.contact__widget__item__text}>
                   <h5>Email Address</h5>
@@ -49,7 +49,7 @@ function Contact() {
             <div className={`${styles.colLg4} ${styles.colMd6} ${styles.colSm6}`}>
               <div className={`${styles.contact__widget__item} ${styles.last__item}`}>
                 <div className={styles.contact__widget__item__icon}>
-                  <img src="../../../public/Images/ci-3.png" alt="" />
+                  <img src="./Images/ci-3.png" alt="" />
                 </div>
                 <div className={styles.contact__widget__item__text}>
                   <h5>Office Location</h5>
