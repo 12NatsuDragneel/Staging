@@ -32,7 +32,7 @@ height: 3rem;
 .image-container{
   /* border: 50px solid green; */
   /* margin: 4rem; */
-  padding: 3.5rem;
+  padding: 1rem;
 
 }
 .works2pImg{
@@ -48,7 +48,7 @@ height: 3rem;
   /* left: 4%; */
   z-index: 10;
   margin-right: 10rem !important;
-  margin-left: -0.5rem !important ;
+  margin-left: 2.1rem !important ;
   margin-bottom: 2rem !important;
   margin-top: 2% !important;
   text-align: center;
@@ -82,7 +82,7 @@ height: 3rem;
   /* opacity: 1 !important; */
   /* visibility: visible !important; */
   /* border: 2px solid yellow !important; */
-  margin-top: -2% !important;
+  margin-top: -3% !important;
 }
 .Works11 sup{
   color: #dfa667;
