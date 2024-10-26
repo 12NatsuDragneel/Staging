@@ -188,3 +188,50 @@
     display: none;
   }
 }
+.nav-pages:hover .nav-pages1,
+.nav-pages1:hover {
+  display: block !important;
+  transition: all 0.3s linear !important;
+}
+.nav-pages {
+  position: relative;
+}
+
+.nav-pages1 {
+  position: absolute;
+  top: 100%; /* Display directly below the 'Pages' link */
+  left: 0;
+  background-color: #ffffff;
+  display: none;
+  z-index: 9;
+ 
+}
+
+.nav-pages:hover .nav-pages1 {
+  display: flex !important;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* border: 2px solid red; */
+  width: 8rem;
+  margin-top: 0.35rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+/* .nav-pages1:hover {
+  display: block; 
+} */
+
+ 
+/* Navbar.css */
+
+
+.nav-link:hover, .nav-link.active {
+  border-bottom: 2px solid #dfa667;
+}
+
+
+
+.nav-pages1 .nav-link:hover, .nav-pages1 .nav-link.active {
+  border-bottom: 2px solid #dfa667;
+}

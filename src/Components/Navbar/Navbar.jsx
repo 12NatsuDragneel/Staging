@@ -44,10 +44,34 @@ function Navbar() {
               About
             </Link>
           </li>
+          {/* Updated Pages dropdown structure */}
           <li className="nav-item nav-pages">
             <Link to="#" className={`nav-link ${location.pathname === '/Pages' ? 'active' : ''}`}>
               Pages
             </Link>
+            {/* Submenu as a child of nav-pages */}
+            <div className="nav-pages1">
+              <li className="nav-item1">
+                <Link to="/Projects" className={`nav-link ${location.pathname === '/Projects' ? 'active' : ''}`}>
+                  Project Details
+                </Link>
+              </li>
+              <li className="nav-item1">
+                <Link to="/About" className={`nav-link ${location.pathname === '/About' ? 'active' : ''}`}>
+                  About
+                </Link>
+              </li>
+              <li className="nav-item1">
+                <Link to="/Services" className={`nav-link ${location.pathname === '/Services' ? 'active' : ''}`}>
+                  Services
+                </Link>
+              </li>
+              <li className="nav-item1">
+                <Link to="/Blog" className={`nav-link ${location.pathname === '/Blog' ? 'active' : ''}`}>
+                  Blog Details
+                </Link>
+              </li>
+            </div>
           </li>
           <li className="nav-item">
             <Link to="/Blog" className={`nav-link ${location.pathname === '/Blog' ? 'active' : ''}`}>
@@ -59,28 +83,6 @@ function Navbar() {
               Contact
             </Link>
           </li>
-          <div className="nav-pages1">
-            <li className="nav-item1">
-              <Link to="/ProjectDetail" className={`nav-link ${location.pathname === '/ProjectDetail' ? 'active' : ''}`}>
-                Project Details
-              </Link>
-            </li>
-            <li className="nav-item1">
-              <Link to="/About" className={`nav-link ${location.pathname === '/About' ? 'active' : ''}`}>
-                About
-              </Link>
-            </li>
-            <li className="nav-item1">
-              <Link to="/Services" className={`nav-link ${location.pathname === '/Services' ? 'active' : ''}`}>
-                Services
-              </Link>
-            </li>
-            <li className="nav-item1">
-              <Link to="/Blog" className={`nav-link ${location.pathname === '/Blog' ? 'active' : ''}`}>
-                Blog Details
-              </Link>
-            </li>
-          </div>
         </ul>
 
         <div className="Nav1">
@@ -103,7 +105,6 @@ function Navbar() {
           <button className="menu-button" onClick={toggleMenu}>
             Menu
           </button>
-        
 
           {showMenu && (
             <ul className="popup-links">
@@ -114,10 +115,10 @@ function Navbar() {
               <li><Link to="/Contact">Contact</Link></li>
             </ul>
           )}
-            <div className="Nav1012">
-          <p className='text-gray-400'>Call us for any questions</p>
-          <p className='text-orange-300 text-xl'>+01 123 456 789</p>
-        </div>
+          <div className="Nav1012">
+            <p className='text-gray-400'>Call us for any questions</p>
+            <p className='text-orange-300 text-xl'>+01 123 456 789</p>
+          </div>
         </div>
       )}
     </nav>

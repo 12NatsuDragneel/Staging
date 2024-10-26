@@ -55,3 +55,20 @@
         padding: 0.5rem;
     }
 }
+.TSL1{
+    /* border: 2px solid red; */
+    height: 10rem !important;
+}
+.TSld{
+    /* border: 2px solid blue; */
+    height: 10rem;
+}
+.TSlider{
+    /* border: 2px solid yellow; */
+    height: 10rem;
+    position: relative;
+    top: 3rem;
+}
+.slick-center{
+    /* border: 2px solid purple; */
+}

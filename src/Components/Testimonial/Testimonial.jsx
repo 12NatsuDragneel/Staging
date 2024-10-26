@@ -32,7 +32,7 @@ const Testimonial = () => {
         slidesToShow: 5,  // Default setting
         slidesToScroll: 1,
         centerMode: true,
-        centerPadding: '0',
+        centerPadding: '0px',
         autoplay: false,
         arrows: false,
         beforeChange: (oldIndex, newIndex) => {
@@ -112,7 +112,7 @@ const Testimonial = () => {
                     <FontAwesomeIcon icon={faAngleRight} className="Testimonial2Icon" />
                 </button>
             </div>
-            <div style={{ width: '45%',height: '40%', margin: '0 auto' }} className='TSL1'>
+            <div style={{ width: '46%',height: '40%', margin: '0 auto' }} className='TSL1'>
                 <Slider ref={sliderRef} {...settings} className='TSld'> 
                     {images.map((src, index) => (
                         <div key={index} className='TSlider'>
@@ -121,7 +121,7 @@ const Testimonial = () => {
                                 alt={`Client ${index + 1}`}
                                 style={{
                                     width: '100%',
-                                    maxHeight: '3rem',
+                                    maxHeight: '2.7rem',
                                     objectFit: 'contain',
                                     transition: 'transform 0.3s ease',
                                     overflow:  'visible',
